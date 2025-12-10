@@ -1,0 +1,12 @@
+{
+  "title": "Class Form (editable schema)",
+  "fields": [
+    { "id": "student_name", "label": "Student Name", "type": "text", "required": true },
+    { "id": "student_id", "label": "Student ID", "type": "text", "required": true },
+    { "id": "email", "label": "Email", "type": "email", "required": false },
+    { "id": "date", "label": "Date", "type": "date", "required": true },
+    { "id": "notes", "label": "Notes / Comments", "type": "textarea", "required": false },
+    { "id": "status", "label": "Status", "type": "select", "required": true,
+      "options": ["Pending", "Complete", "Needs Review"] }
+  ]
+}
